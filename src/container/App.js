@@ -14,7 +14,7 @@ class App extends Component {
     }
 
     componentDidMount(){
-        fetch('https://jsonplaceholder.typicode.com/users')
+        fetch('HTTPS://jsonplaceholder.typicode.com/users')
         .then(Response =>Response.json())
         .then(users=>this.setState({robots:users}));
     }
